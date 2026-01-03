@@ -21,4 +21,15 @@ public class BaseTest {
     public void tearDown() {
         driver.quit();
     }
+@Test
+public void addUserWithEmptyFields() {
+    UserManagementPage userPage = new UserManagementPage(driver);
+    userPage.navigateToUsers();
+    userPage.addUser("", "");
+
+    // Verify validation message
+    Assert.assertTrue(
+        driver.getPageSource().contains("Field is required")
+    );
 }
+/usr/bin/bash: line 1: wq: command not found

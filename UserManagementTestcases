@@ -32,4 +32,4 @@ public void addUserWithEmptyFields() {
         driver.getPageSource().contains("Field is required")
     );
 }
-/usr/bin/bash: line 1: wq: command not found
+//Result are provided by giving input !!!

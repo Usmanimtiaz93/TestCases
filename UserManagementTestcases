@@ -1,3 +1,4 @@
+a = 1000;
 package base;
 
 import org.openqa.selenium.WebDriver;

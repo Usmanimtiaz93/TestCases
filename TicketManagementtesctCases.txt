@@ -1,1 +1,5 @@
-This is class of Source Tool.
+1- This is class of Source Tree Tool.
+
+2- How to install Source Tree Tool.
+
+3- How to clone in local repo by using Source Tree
